@@ -31,24 +31,6 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  **/
 
-//checks to see if CSS transitions are supported in the browser
-function cssTransitions() {
-    var style = document.documentElement.style;
-
-    if (
-        style.webkitTransition !== undefined ||
-        style.MozTransition !== undefined ||
-        style.OTransition !== undefined ||
-        style.MsTransition !== undefined ||
-        style.transition !== undefined
-    ) {
-        return false // Support CSS3 transititon
-    }
-    else {
-        return true
-    }
-}
-
 
 function initezs(tempstick, stime, sdist) {
 
