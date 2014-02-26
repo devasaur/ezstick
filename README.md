@@ -8,6 +8,8 @@ The first version of this script is simply the isolated code for this scroll eff
 To Initiate
 =======
 
+- Apply a class "ezs" to the element you wish to stick. (Note: you can apply to more than one element, and each element will stick when it is scrolled to top. In future updates, I hope to make this a useful feature that allows a stacking effect. For now, the script is best with one sticking element in most cases.)
+
 - Reference jquery in your document
 - Reference the ezstick.js file
 - Include the following code to initiate the function:
