@@ -50,7 +50,7 @@ function cssTransitions() {
 }
 
 
-function startFadeM(tempstick, stime, sdist) {
+function initEZS(tempstick, stime, sdist) {
 
     //convert the values to a number string
 	var sticktime = parseInt(stime);
