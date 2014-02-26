@@ -21,6 +21,9 @@ initEZS(ShortStick,StickTime,StickDistance);
 });
 </pre>
 
+Variables
+========
+
 - Shortstick : accepted values - on / off | tells the script to use the StickTime variable or not. If on, the element will stick for the number of pixels equal to the StickTime value.
-- 
+
 - StickDistance : accepted values - integers | tells the script how many pixels from the top of the window to stick.
