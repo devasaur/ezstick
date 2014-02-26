@@ -37,7 +37,6 @@ function initEZS(tempstick, stime, sdist) {
     //convert the values to a number string
 	var sticktime = parseInt(stime);
 	var stickdistance = parseInt(sdist);
-    var iex = "0." + x;
 
 
     //Set defaults on all elements using stickHere
