@@ -50,7 +50,7 @@ function cssTransitions() {
 }
 
 
-function initEZS(tempstick, stime, sdist) {
+function initezs(tempstick, stime, sdist) {
 
     //convert the values to a number string
 	var sticktime = parseInt(stime);
@@ -59,7 +59,7 @@ function initEZS(tempstick, stime, sdist) {
 
 
     //Set defaults on all elements using stickHere
-    var stickSet = $(".stickM").toArray();
+    var stickSet = $(".ezs").toArray();
 
     var stickTop = [];
     for (var i = 0; i < stickSet.length; i++) {
